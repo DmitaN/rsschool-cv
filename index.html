@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
   <title>CV - Aleksandr Dmitriev</title>
 </head>
 
@@ -33,6 +34,9 @@
               </li>
               <li class="nav__item">
                 <a href="#section-github" class="nav__link">My GitHub</a>
+              </li>
+              <li class="nav__item">
+                <a href="#section-code" class="nav__link">My code</a>
               </li>
               <li class="nav__item">
                 <a href="#section-education" class="nav__link">Education</a>
@@ -112,11 +116,11 @@
         </div>
       </div>
     </section>
-    <section class="section-skills">
+    <section class="section-skills" id="section-skills">
       <div class="container section-skills__container">
         <div class="row">
           <div class="col-lg-4">
-            <h2 class="section-skiils__title">My Skills</h2>
+            <h2 class="section-skills__title">My Skills</h2>
             <ul class="section-skills__list list-reset">
               <li class="section-skills__item">
                 <span class="section-skills__item-descr">HTML</span>
@@ -144,7 +148,27 @@
         </div>
       </div>
     </section>
-    <section class="section-education">
+    <section class="section-code">
+      <div class="container section-code__container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2 class="section-code__title">My code</h2>
+            <pre class="section-code__example">
+              <code class="section-code__javascript hljs language-javascript">
+                burger.addEventListener('click',
+                  function () {
+                    burger.classList.toggle("header__burger--active");
+                    menu.classList.toggle("header__nav--active");
+                    document.body.classList.toggle("stop-scroll")
+                  }
+                );
+              </code>
+          </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-education" id="section-education">
       <div class="container section-education__container">
         <div class="row">
           <div class="col-lg-4">
@@ -161,12 +185,12 @@
         </div>
       </div>
     </section>
-    <section class="section-languages">
-      <div class="container section-language__container">
+    <section class="section-languages" id="section-languages">
+      <div class="container section-languages__container">
         <div class="row">
           <div class="col-lg-4">
-            <h2 class="section-language__title">Languages</h2>
-            <ul class="section-language__list list-reset">
+            <h2 class="section-languages__title">Languages</h2>
+            <ul class="section-languages__list list-reset">
               <li class="section-languages__item">
                 <strong class="section-languages__item-title">English</strong>
                 <span class="section-languages__item-desr">intermediate</span>
@@ -193,6 +217,8 @@
       </div>
     </div>
   </footer>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
