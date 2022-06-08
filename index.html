@@ -1,15 +1,198 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>CV - Aleksandr Dmitriev</title>
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <title>CV - Aleksandr Dmitriev</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="row">
+        <div class="col-lg-12 header__content flex">
+          <a href="#" class="header__logo-link">
+            <img src="assets/img/logo.svg" alt="Logo image" class="header__logo">
+          </a>
+          <nav class="header__nav nav">
+            <ul class="nav__list  list-reset flex">
+              <li class="nav__item">
+                <a href="#section-contact" class="nav__link">Contact</a>
+              </li>
+              <li class="nav__item">
+                <a href="#section-about" class="nav__link">About me</a>
+              </li>
+              <li class="nav__item">
+                <a href="#section-skills" class="nav__link">Skills</a>
+              </li>
+              <li class="nav__item">
+                <a href="#section-github" class="nav__link">My GitHub</a>
+              </li>
+              <li class="nav__item">
+                <a href="#section-education" class="nav__link">Education</a>
+              </li>
+              <li class="nav__item">
+                <a href="#section-languages" class="nav__link">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section-hero">
+      <div class="container section-hero__container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/userpic.jpg" alt="avatar" class="section-hero__img">
+          </div>
+          <div class="col-lg-8">
+            <h1 class="section-hero__title">Aleksandr Dmitriev</h1>
+            <span class="section-hero__descr">Junior Frontend Developer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-contact" id="section-contact">
+      <div class="container section-contact__container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="section-contact__title">Contact</h2>
+            <ul class="section-contact__list list-reset">
+              <li class="section-contact__item">
+                <span class="section-contact__descr">phone:</span>
+                <a href="tel:+79672393456" class="section-contact__link">+7 967 239 3456</a>
+              </li>
+              <li class="section-contact__item">
+                <span class="section-contact__descr">e-mails:</span>
+                <a href="mailto:dmitan@bk.ru" class="section-contact__link">dmitan@bk.ru</a>
+              </li>
+              <li class="section-contact__item">
+                <span class="section-contact__descr">telegram:</span>
+                <a href="#" class="section-contact__link">@Heinz_est1869</a>
+              </li>
+              <li class="section-contact__item">
+                <span class="section-contact__descr">Discord:</span>
+                <a href="#" class="section-contact__link">DmitaN#5034</a>
+              </li>
+              <li class="section-contact__item">
+                <a href="https://www.linkedin.com/in/aleksandr-dmitriev-901a161aa/"
+                  class="section-contact__link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-about" id="section-about">
+      <div class="container section-about__container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="section-about__title">About me</h2>
+            <p class="section-about__descr">
+              I&nbsp;have been in&nbsp;IT for more than 12&nbsp;years. I&nbsp;have experience in&nbsp;developing desktop
+              applications and working with databases. I&nbsp;am actively studying frontend development now,
+              because&nbsp;I see a&nbsp;great future in&nbsp;it. And also the result is&nbsp;visible immediately, which
+              motivates you to&nbsp;continue learning. I&nbsp;want to&nbsp;gain experience in&nbsp;development for
+              European customers and companies.
+            </p>
+            <p class="section-about__descr">
+              I&nbsp;also practice Japanese martial arts, such as&nbsp;Judo and Iaido. I&nbsp;am a&nbsp;three-time
+              champion of&nbsp;Russia in&nbsp;Jodo. I&nbsp;am a&nbsp;champion in&nbsp;team competitions at&nbsp;the
+              Iaido Championship of&nbsp;Russia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-skills">
+      <div class="container section-skills__container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="section-skiils__title">My Skills</h2>
+            <ul class="section-skills__list list-reset">
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">HTML</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">CSS</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">JavaScript basic</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Git&nbsp;/ GitHub&nbsp;/ Gitlab</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">VS&nbsp;Code, IntelliJ IDEA</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">C#</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Python basic</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-education">
+      <div class="container section-education__container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="section-education__title">Education</h2>
+            <p class="section-education__descr">
+              I&nbsp;graduated from the Ural State Mining University in&nbsp;Yekaterinburg with a&nbsp;degree
+              in&nbsp;Automated Information Processing and Management Systems in&nbsp;2010.
+            </p>
+            <p class="section-education__descr">
+              I&nbsp;am continuing my&nbsp;training on&nbsp;the Skillbox platform as&nbsp;a&nbsp;frontend developer now.
+              And I&rsquo;m also starting to&nbsp;study at&nbsp;RS&nbsp;School in&nbsp;the same direction
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-languages">
+      <div class="container section-language__container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class="section-language__title">Languages</h2>
+            <ul class="section-language__list list-reset">
+              <li class="section-languages__item">
+                <strong class="section-languages__item-title">English</strong>
+                <span class="section-languages__item-desr">intermediate</span>
+              </li>
+              <li class="section-languages__item">
+                <strong class="section-languages__item-title">Russian</strong>
+                <span class="section-languages__item-desr">native</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container flex">
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="https://github.com/DmitaN/" target="_blank" class="footer__link">My GitHub</a>
+          <a href="https://rs.school/js/" target="_blank" class="footer__link">
+            <img src="assets/img/rs_school_js.svg" alt="footer_logo" class="footer__logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
