@@ -209,18 +209,18 @@
     </section>
     <section class="section-code section-reset" id="section-code">
       <div class="container section-code__container">
-        <div class="row">
-          <div class="col-lg-7">
-            <h2 class="section-code__title title">My code</h2>
+        <div class="section-code__content row">
+          <h2 class="section-code__title title">My code</h2>
+          <div class="col-lg-5 ">
             <pre class="section-code__example">
               <code class="section-code__javascript hljs language-javascript">
-                burger.addEventListener('click',
-                  function () {
-                    burger.classList.toggle("header__burger--active");
-                    menu.classList.toggle("header__nav--active");
-                    document.body.classList.toggle("stop-scroll")
-                  }
-                );
+burger.addEventListener('click',
+  function () {
+    burger.classList.toggle("header__burger--active");
+    menu.classList.toggle("header__nav--active");
+    document.body.classList.toggle("stop-scroll")
+  }
+);
               </code>
           </pre>
           </div>
@@ -230,7 +230,7 @@
     <section class="section-education section-reset" id="section-education">
       <div class="container section-education__container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <h2 class="section-education__title title">Education</h2>
             <p class="section-education__descr">
               I&nbsp;graduated from the Ural State Mining University in&nbsp;Yekaterinburg with a&nbsp;degree
@@ -248,9 +248,9 @@
     <section class="section-languages section-reset" id="section-languages">
       <div class="container section-languages__container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <h2 class="section-languages__title title">Languages</h2>
-            <ul class="section-languages__list list-reset">
+            <ul class="section-languages__list list-reset flex">
               <li class="section-languages__item">
                 <strong class="section-languages__item-title">English</strong>
                 <span class="section-languages__item-desr">intermediate</span>
@@ -266,9 +266,9 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="container footer__container flex">
+    <div class="container footer__container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 footer__content flex">
           <span class="footer__year">© 2022</span>
           <a href="https://github.com/DmitaN/" class="footer__link" target="_blank">My GitHub</a>
           <a href="https://rs.school/js/" class="footer__link" target="_blank">
