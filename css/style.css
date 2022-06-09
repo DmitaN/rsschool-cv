@@ -151,9 +151,11 @@ p {
 }
 
 .section-contact__item {
-  margin-right: 30px;
+  width: 123px;
   margin-bottom: 10px;
   padding-top: 50px;
+
+  text-align: center;
 
   background-repeat: no-repeat;
   background-position: center top;
@@ -184,8 +186,50 @@ p {
   background-image: url("../assets/img/section-contact/linkedin.svg");
 }
 
-.section-contact__descr:not(:first-child) {
-  font-style: italic;
+/* section-about */
+
+.section-about__title {
+  text-align: center;
+}
+
+.section-about__descr {
+  text-indent: 30px;
+  line-height: 26px;
+}
+
+.section-about__descr:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* section-skills */
+
+.section-skills__title {
+  text-align: center;
+}
+
+.section-skills__subtitle {
+  padding-left: 30px;
+  margin-bottom: 20px;
+
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.section-skills__subtitle--image-1 {
+  background-image: url("../assets/img/section-skills/softsvg.svg");
+}
+
+.section-skills__subtitle--image-2 {
+  background-image: url("../assets/img/section-skills/hard.svg");
+}
+
+.section-skills__item-descr {
+  padding-left: 30px;
+}
+
+.section-skills__item {
+  margin-bottom: 10px;
 }
 
 /* section-projects */
