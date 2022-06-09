@@ -187,3 +187,10 @@ p {
 .section-contact__descr:not(:first-child) {
   font-style: italic;
 }
+
+/* section-projects */
+
+.section-projects__list {
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
