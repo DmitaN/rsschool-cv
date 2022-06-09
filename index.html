@@ -33,7 +33,7 @@
                 <a href="#section-skills" class="nav__link">Skills</a>
               </li>
               <li class="nav__item">
-                <a href="#section-github" class="nav__link">My GitHub</a>
+                <a href="#section-projects" class="nav__link">My projects</a>
               </li>
               <li class="nav__item">
                 <a href="#section-code" class="nav__link">My code</a>
@@ -74,23 +74,18 @@
                 <span class="section-contact__descr">Moscow, Russia</span>
               </li>
               <li class="section-contact__item section-contact__item--image-2">
-                <span class="section-contact__descr">phone:</span>
                 <a href="tel:+79672393456" class="section-contact__link">+7 967 239 3456</a>
               </li>
               <li class="section-contact__item section-contact__item--image-3">
-                <span class="section-contact__descr">e-mail:</span>
                 <a href="mailto:dmitan@bk.ru" class="section-contact__link">dmitan@bk.ru</a>
               </li>
               <li class="section-contact__item section-contact__item--image-4">
-                <span class="section-contact__descr">telegram:</span>
                 <a href="#" class="section-contact__link">@Heinz_est1869</a>
               </li>
               <li class="section-contact__item section-contact__item--image-5">
-                <span class="section-contact__descr">Discord:</span>
                 <a href="#" class="section-contact__link">DmitaN#5034</a>
               </li>
               <li class="section-contact__item section-contact__item--image-6">
-                <span class="section-contact__descr">Link to:</span>
                 <a href="https://www.linkedin.com/in/aleksandr-dmitriev-901a161aa/"
                   class="section-contact__link">LinkedIn</a>
               </li>
@@ -102,10 +97,11 @@
     <section class="section-about section-reset" id="section-about">
       <div class="container section-about__container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <h2 class="section-about__title title">About me</h2>
             <p class="section-about__descr">
-              I&nbsp;have been in&nbsp;IT for more than 12&nbsp;years. I&nbsp;have experience in&nbsp;developing
+              I&nbsp;have been in&nbsp;IT for more than 12&nbsp;years. I&nbsp;have leadership experience. I&nbsp;have
+              experience in&nbsp;developing
               desktop
               applications and working with databases. I&nbsp;am actively studying frontend development now,
               because&nbsp;I see a&nbsp;great future in&nbsp;it. And also the result is&nbsp;visible immediately,
@@ -125,8 +121,37 @@
     <section class="section-skills section-reset" id="section-skills">
       <div class="container section-skills__container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <h2 class="section-skills__title title">My Skills</h2>
+          </div>
+          <div class="col lg-6">
+            <h3 class="section-skills__subtitle section-skills__subtitle--image-1">Soft skills</h3>
+            <ul class="section-skills__list list-reset">
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Communication</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Teamwork</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Problem-solving</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Time management</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Critical thinking</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Decision-making</span>
+              </li>
+              <li class="section-skills__item">
+                <span class="section-skills__item-descr">Organizational</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="section-skills__subtitle section-skills__subtitle--image-2">Hard skills</h3>
             <ul class="section-skills__list list-reset">
               <li class="section-skills__item">
                 <span class="section-skills__item-descr">HTML</span>
@@ -154,20 +179,48 @@
         </div>
       </div>
     </section>
+    <section class="section-projects section-reset" id="section-projects">
+      <div class="container section-projects__container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-projects__title title">My projects</h2>
+            <p class="section-projects__descr">You can see more my project on
+              <a href="https://github.com/DmitaN/" class="section-projects__link" target="_blank">Github</a>
+            </p>
+          </div>
+          <div class="col-lg-12 section-projects__content">
+            <ul class="section-projects__list list-reset flex">
+              <li class="col-lg-4 section-projects__item section-projects__item--image-1">
+                <h3 class="section-projects__item-title">Laggona</h3>
+                <p class="section-projects__item-descr">Site for small company</p>
+                <a href="https://github.com/DmitaN/lagoona" class="section-projects__link" target="_blank">Laggona on
+                  github</a>
+              </li>
+              <li class="col-lg-4 section-projects__item section-projects__item--image-2">
+                <h3 class="section-projects__item-title">Evklid</h3>
+                <p class="section-projects__item-descr">Site for small company</p>
+                <a href="https://github.com/DmitaN/evklid" class="section-projects__link" target="_blank">Evklid on
+                  github</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section-code section-reset" id="section-code">
       <div class="container section-code__container">
-        <div class="row">
-          <div class="col-lg-7">
-            <h2 class="section-code__title title">My code</h2>
+        <div class="section-code__content row">
+          <h2 class="section-code__title title">My code</h2>
+          <div class="col-lg-5 ">
             <pre class="section-code__example">
               <code class="section-code__javascript hljs language-javascript">
-                burger.addEventListener('click',
-                  function () {
-                    burger.classList.toggle("header__burger--active");
-                    menu.classList.toggle("header__nav--active");
-                    document.body.classList.toggle("stop-scroll")
-                  }
-                );
+burger.addEventListener('click',
+  function () {
+    burger.classList.toggle("header__burger--active");
+    menu.classList.toggle("header__nav--active");
+    document.body.classList.toggle("stop-scroll")
+  }
+);
               </code>
           </pre>
           </div>
@@ -177,7 +230,7 @@
     <section class="section-education section-reset" id="section-education">
       <div class="container section-education__container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <h2 class="section-education__title title">Education</h2>
             <p class="section-education__descr">
               I&nbsp;graduated from the Ural State Mining University in&nbsp;Yekaterinburg with a&nbsp;degree
@@ -195,9 +248,9 @@
     <section class="section-languages section-reset" id="section-languages">
       <div class="container section-languages__container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <h2 class="section-languages__title title">Languages</h2>
-            <ul class="section-languages__list list-reset">
+            <ul class="section-languages__list list-reset flex">
               <li class="section-languages__item">
                 <strong class="section-languages__item-title">English</strong>
                 <span class="section-languages__item-desr">intermediate</span>
@@ -213,12 +266,12 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="container footer__container flex">
+    <div class="container footer__container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 footer__content flex">
           <span class="footer__year">© 2022</span>
-          <a href="https://github.com/DmitaN/" target="_blank" class="footer__link">My GitHub</a>
-          <a href="https://rs.school/js/" target="_blank" class="footer__link">
+          <a href="https://github.com/DmitaN/" class="footer__link" target="_blank">My GitHub</a>
+          <a href="https://rs.school/js/" class="footer__link" target="_blank">
             <img src="assets/img/rs_school_js.svg" alt="footer_logo" class="footer__logo">
           </a>
         </div>
