@@ -201,6 +201,7 @@ p {
 .section-about__descr {
   text-indent: 30px;
   line-height: 26px;
+  text-align: center;
 }
 
 .section-about__descr:not(:last-child) {
@@ -212,6 +213,10 @@ p {
 /* .section-skills__title {
   text-align: center;
 } */
+
+.section-skills__content {
+  justify-content: space-around;
+}
 
 .section-skills__subtitle {
   padding-left: 30px;
@@ -308,6 +313,7 @@ p {
 .section-education__descr {
   text-indent: 30px;
   line-height: 26px;
+  text-align: center;
 }
 
 .section-education__descr:not(:last-child) {
