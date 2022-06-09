@@ -234,7 +234,53 @@ p {
 
 /* section-projects */
 
-.section-projects__list {
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
+.section-projects__title {
+  text-align: center;
 }
+
+.section-projects__descr {
+  text-align: center;
+}
+
+.section-projects__content {
+  padding-top: 30px;
+}
+
+.section-projects__list {
+  justify-content: space-around;
+}
+
+.section-projects__item {
+  padding: 20px;
+  padding-top: 330px;
+
+  background-color: #cfcfcf;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.section-projects__item--image-1 {
+  background-image: url("../assets/img/section-projects/lagoona.png");
+}
+
+.section-projects__item--image-2 {
+  background-image: url("../assets/img/section-projects/evklid.png");
+}
+
+.section-projects__item-title {
+  margin-bottom: 10px;
+}
+
+.section-projects__item-descr {
+  margin-bottom: 10px;
+}
+
+.section-projects__link {
+  text-decoration: underline;
+}
+
+
