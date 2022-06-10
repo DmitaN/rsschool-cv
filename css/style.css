@@ -319,26 +319,16 @@ p {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .section-projects__link:not(:first-child)::before {
-=======
-.section-projects__link::before {
->>>>>>> ddd192c... feat: add hover for link projects
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   content: "";
-<<<<<<< HEAD
   z-index: 100;
 
   display: block;
-=======
-  display: block;
-  filter: none;
-  z-index: 100;
->>>>>>> ddd192c... feat: add hover for link projects
 }
 
 .section-projects__item:hover {
