@@ -41,7 +41,7 @@
     max-width: 420px;
     height: 768px;
     z-index: 1000;
-    padding: 100px 200px 217px 50px;
+    padding: 80px 200px 217px 50px;
     box-shadow: 0 5px 40px rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
     overflow-y: auto;
@@ -72,5 +72,24 @@
 
   .section-projects__item {
     padding-top: 160px;
+  }
+
+  /* section-skills */
+  .section-skills__content {
+    text-align: center;
+  }
+
+  .section-skills__list {
+    margin-bottom: 30px;
+  }
+
+  .section-skills__subtitle {
+    padding-left: 0;
+    padding-top: 30px;
+    background-position: top center;
+  }
+
+  .section-skills__item-descr {
+    padding-left: 0px;
   }
 }
