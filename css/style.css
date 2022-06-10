@@ -17,6 +17,7 @@
 }
 
 :root {
+<<<<<<< HEAD
   --color-pomegranate: #f85617;
   --color-swiss-coffee: #dbd6d6;
   --color-dove-gray: #666666;
@@ -27,6 +28,9 @@
 
   --size-gap: 20px;
   --size-mb: 20px;
+=======
+
+>>>>>>> 48e7200... refastor: update some style
 }
 
 html {
