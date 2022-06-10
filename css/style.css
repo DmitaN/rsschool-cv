@@ -319,16 +319,16 @@ p {
   text-decoration: underline;
 }
 
-.section-projects__link::before {
+.section-projects__link:not(:first-child)::before {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   content: "";
-  display: block;
-  filter: none;
   z-index: 100;
+
+  display: block;
 }
 
 .section-projects__item:hover {
