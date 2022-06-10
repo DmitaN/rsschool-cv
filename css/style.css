@@ -284,6 +284,8 @@ p {
 }
 
 .section-projects__item {
+  position: relative;
+
   padding: 20px;
   padding-top: 330px;
 
@@ -294,6 +296,7 @@ p {
   border-radius: 10px;
   box-shadow: 4px 4px 8px 0px var(--color-loblolly);
   filter: grayscale(65%);
+  transition: filter 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .section-projects__item--image-1 {
@@ -314,6 +317,23 @@ p {
 
 .section-projects__link {
   text-decoration: underline;
+}
+
+.section-projects__link::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  filter: none;
+  z-index: 100;
+}
+
+.section-projects__item:hover {
+  filter: none;
+  box-shadow: 8px 8px 8px 2px var(--color-loblolly);
 }
 
 /* section-code */
