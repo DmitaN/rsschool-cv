@@ -1,6 +1,6 @@
 # Aleksandr Dmitriev
 ***
-#### Junior Frontend Developer
+#### Frontend Developer
 ***
 
 ### Contact information
