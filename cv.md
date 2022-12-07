@@ -1,6 +1,6 @@
 # Aleksandr Dmitriev
 ***
-#### Frontend Developer
+#### JavaScript Frontend Developer
 ***
 
 ### Contact information
